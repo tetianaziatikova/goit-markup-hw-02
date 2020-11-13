@@ -69,7 +69,9 @@ ul {
 .link-contact:hover,
 .link-contact:focus,
 .button:hover, 
-.button:focus {
+.button:focus, 
+.button-main:hover, 
+.button-main:focus {
     color: var(--accent-color);
 }
 
@@ -94,9 +96,9 @@ ul {
 
 /* Button*/
 .button-main {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    
+    color: var(--title-text-color);
+    background-color: var(--botton-bg-color);
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -142,15 +144,6 @@ ul {
 }
 
 /* Portfolio.html */
-.button-main-portolio {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.56;
-}
 .button {
     color: var(--title-text-color);
     background-color: var(--botton-bg-color);

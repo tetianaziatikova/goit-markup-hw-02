@@ -67,12 +67,16 @@ ul {
 .site-nav .link:focus,
 .site-nav .link-current,
 .link-contact:hover,
-.link-contact:focus,
+.link-contact:focus {
+    color: var(--accent-color);
+}
+
 .button:hover, 
 .button:focus, 
 .button-main:hover, 
 .button-main:focus {
-    color: var(--accent-color);
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 .link-contact {
